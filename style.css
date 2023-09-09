@@ -1,7 +1,7 @@
 body{
     background: #123;
 }
-div #te{
+#pes #te{
     width: 50%;
     height: 100vh;
     margin: 0;
@@ -11,11 +11,26 @@ div #te{
     align-items: center;
     flex-direction: column;
 }
+#test{
+    background: red;
+    width: 100%;
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+}
+#pe{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    margin: 0;
+}
 #tes *{
     font-size: 32px;
     font-weight: 700;
 }
-div #tes{
+#pes #tes{
     width: 50%;
     height: 100vh;
     margin: 0;
@@ -25,16 +40,17 @@ div #tes{
     justify-content: center;
     align-items: center;
 }
-div{
+#pes{
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     justify-content: space-between;   
+    align-items: center;
 }
-div #tes p{
+#pes #tes p{
     text-align: center;
 }
-div *{
+#pes *{
     margin: 4px;
 }
 input:focus{
@@ -53,7 +69,7 @@ input{
     padding: 0;
     font-family: sans-serif;
 }
-div h2{
+#pes h2{
     color: white;
 }
 button:hover{
