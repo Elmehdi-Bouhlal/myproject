@@ -1,15 +1,53 @@
 body{
     background: #123;
 }
-div{
-    width: 100%;
+div #te{
+    width: 50%;
     height: 100vh;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
+#tes *{
+    font-size: 32px;
+    font-weight: 700;
+}
+div #tes{
+    width: 50%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;   
+}
+div #tes p{
+    text-align: center;
+}
+div *{
+    margin: 4px;
+}
+input:focus{
+    width: 150px;
+    transition: 2s;
+    outline: none;
+}
+input{
+    border-radius: 3px;
+    transition: 2s;
+    border:none;
+    padding: 4px;
+}
 *{
     margin: 0;
     padding: 0;
